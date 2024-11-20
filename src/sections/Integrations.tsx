@@ -8,5 +8,16 @@ const integrations = [
 ];
 
 export default function Integrations() {
-    return <div>Integrations</div>;
+    return (
+        <div className="grid grid-cols-2 gap-8">
+            {integrations.map((integration, index) => (
+                <div key={index} className="flex items-center space-x-4">
+                    <div>
+                        <h3 className="font-bold">{integration.name}</h3>
+                        <p>{integration.description}</p>
+                    </div>
+                </div>
+            ))}
+        </div>
+    );
 }

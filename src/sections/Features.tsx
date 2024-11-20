@@ -9,5 +9,12 @@ const features = [
 ];
 
 export default function Features() {
-    return <div>Features</div>;
+    return <div>
+        {features.map((feature: string, index: number) => (
+            <div key={index} className="mb-8">
+                <h3 className="text-lg font-bold mb-2">{feature}</h3>
+                <p>Our {feature} feature is the best in the industry. It will blow your mind.</p>
+            </div>
+        ))}
+    </div>;
 }

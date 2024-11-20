@@ -22,5 +22,14 @@ const faqs = [
 ];
 
 export default function Faqs() {
-    return <div>Faqs</div>;
+    return (
+        <>
+            {faqs.map((faq: { question: string; answer: string }, index: number) => (
+                <div key={index} className="mb-8">
+                    <h3 className="text-lg font-bold mb-2">{faq.question}</h3>
+                    <p>{faq.answer}</p>
+                </div>
+            ))}
+        </>
+    );
 }

@@ -5,5 +5,13 @@ const footerLinks = [
 ];
 
 export default function Footer() {
-    return <div>Footer</div>;
+    return (
+        <>
+            {footerLinks.map((link: { href: string; label: string }, index: number) => (
+                <a key={index} href={link.href} className="mr-4">
+                    {link.label}
+                </a>
+            ))}
+        </>
+    );
 }
