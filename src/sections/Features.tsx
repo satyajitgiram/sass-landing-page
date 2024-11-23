@@ -1,8 +1,8 @@
 import FeatureCard from "@/components/FeatureCard";
 import Tag from "@/components/Tag";
-import avatar1 from '@/assets/images/avatar-ashwin-santiago.jpg'
-import avatar2 from '@/assets/images/avatar-lula-meyers.jpg'
-import avatar3 from '@/assets/images/avatar-florence-shaw.jpg'
+import avatar1 from '@/assets/images/avatar-ashwin-santiago.jpg';
+import avatar2 from '@/assets/images/avatar-lula-meyers.jpg';
+import avatar3 from '@/assets/images/avatar-florence-shaw.jpg';
 import Image from "next/image";
 import Avatar from "@/components/Avatar";
 import Key from "@/components/Key";
@@ -48,7 +48,7 @@ export default function Features() {
                 </FeatureCard>
                 <FeatureCard title="Interactive Prototyping" description="Engage your clients with prototypes that reaches to user actions" className="md:col-span-2 lg:col-span-1">
                     <div className="aspect-video flex items-center justify-center">
-                        <p className="text-4xl font-extrabold text-white/20 text-center">We've achieved <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">incredible</span> growth this year </p>
+                        <p className="text-4xl font-extrabold text-white/20 text-center">We&apos;ve achieved <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">incredible</span> growth this year </p>
                     </div>
                 </FeatureCard>
                 <FeatureCard title="Keyboard Quick Actions" description="Powerful commands to help you create designs more quickly" className="md:col-span-2 lg:col-span-1 md:col-start-2 lg:col-start-auto ">
