@@ -28,13 +28,13 @@ export default function Features() {
             <div className="mt-12 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-3  gap-8 ">
                 <FeatureCard  title="Real-Time Collaboration" description="Work together seamlessly with conflict free editing" className="md:col-span-2 lg:col-span-1">
                     <div className="aspect-video flex justify-center items-center">
-                        <Avatar className="z-50">
+                        <Avatar className="z-40">
                             <Image src={avatar1} alt="avatar 1" className="rounded-full"/>
                         </Avatar>
-                        <Avatar className="-ml-5 border-indigo-500 z-40">
+                        <Avatar className="-ml-5 border-indigo-500 z-30">
                             <Image src={avatar2} alt="avatar 2" className="rounded-full"/>
                         </Avatar>
-                        <Avatar className="-ml-5 border-amber-500 z-30">
+                        <Avatar className="-ml-5 border-amber-500 z-20">
                             <Image src={avatar3} alt="avatar 3" className="rounded-full"/>
                         </Avatar>
                         <Avatar className="-ml-5 border-transparent">
